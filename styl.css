@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* continerga stil berish */
+.continer {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* buttonga stil berish */
+button {
+    cursor: pointer;
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+}
+
+/* bu ota qismioga stil berish */
+.ota {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+
+/* hamma bola qismiga stil berish */
+.bola {
+    background-color: bisque;
+    padding: 20px;
+}
+
+/* bola-1ga stil berish */
+.bola-1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+/* bola-4ga stil berish */
+.bola-4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+.img-1 {
+    width: 100%;
+    max-width: 300px;
+}
+
+.mnb-2 {
+    width: 300px;
+}
+
+.vcx-1 {
+    width: 400px;
+    cursor: pointer;
+}
